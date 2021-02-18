@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('sun.jpg');
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    color: #ffffff;
+}
+.wrapper{
+    width: 800px;
+    margin: 10% auto;
+}
+.form-area{
+    display:flex;
+    background: rgba(0,0,0,0.8);
+    border-radius: 25px;
+    padding: 2.9em;
+}
+.detalles-area{
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+    font-family: poppins;
+    font-size: 18px;
+}
+.detalles-area input{
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+}  
+.detalles-area textArea{
+    border-radius: 15px;
+    border: 5px solid transparent;
+}  
+.detalles-area input,
+.detalles-area button{
+    padding: 1em;
+    margin-bottom: 1em;
+}
